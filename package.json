@@ -1,0 +1,20 @@
+{
+  "name": "to-react-do-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EvangelosKolimitras/to-react-do-app.git",
+  "author": "Evangelos <evangeloskolimitras@outlook.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "babel:watch": "babel src/app.js --out-file=public/src/app.js --presets=env,react --watch"
+  },
+
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
