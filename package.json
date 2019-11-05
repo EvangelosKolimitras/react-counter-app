@@ -7,7 +7,7 @@
   "license": "MIT",
 
   "scripts": {
-    "babel:watch": "babel src/app.js --out-file=public/src/app.js --presets=env,react --watch"
+    "babel:watch": "babel src/app.jsx --out-file=public/src/app.js --presets=env,react --watch"
   },
 
   "dependencies": {
